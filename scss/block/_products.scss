@@ -1,0 +1,21 @@
+#products {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: center;
+        color: $colorText;
+    }
+}
+.products__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .products__item{
+        display: flex;
+        justify-content: space-around;
+    }
+}
