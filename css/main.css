@@ -25,7 +25,7 @@ ul {
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
-  color: #01384D;
+  color: #01384d;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ ul {
   font-size: 30px;
   line-height: 35px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 .production__item iframe {
   margin-top: 24px;
@@ -54,7 +54,7 @@ ul {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 #toChoose {
@@ -65,7 +65,7 @@ ul {
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
-  color: #01384D;
+  color: #01384d;
   text-align: center;
 }
 
@@ -80,25 +80,29 @@ ul {
   line-height: 25px;
   text-decoration: underline;
   text-align: center !important;
-  color: #01384D;
+  color: #01384d;
   margin-left: 110px;
 }
 
 .toChoose__item {
   margin: 0 10px;
-  border: 2px solid #01384D;
+  border: 2px solid #01384d;
   border-radius: 5px;
+}
+.toChoose__item img {
+  width: 350px;
+  height: 250px;
 }
 
 .toChoose__desc {
-  padding: 64px 64px 100px;
+  padding: 48px 48px 100px;
 }
 .toChoose__desc h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   padding: 8px;
 }
 .toChoose__desc p {
@@ -106,12 +110,12 @@ ul {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.7;
 }
 
 .toChoose__desc:nth-last-child(2) {
-  padding: 64px 64px 32px;
+  padding: 48px 48px 32px;
 }
 
 #products {
@@ -122,16 +126,34 @@ ul {
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
+  color: #01384d;
   text-align: center;
-  color: #01384D;
 }
 
 .products__list {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .products__list .products__item {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background: #f6fbff;
+  border: 1px solid #c7dff5;
+}
+.products__list .products__item img {
+  padding: 100px 30px 100px 20px;
+}
+.products__list .products__item .products__desc {
+  padding: 30px 20px 30px 20px;
+}
+.products__list .products__item .products__desc h3 {
+  text-align: left !important;
+}
+.products__list .products__item ul {
+  display: flex;
+  justify-content: space-between;
+}
+.products__list .products__item ul li {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
