@@ -1,0 +1,36 @@
+header{
+    background-color: $bgColorHead;
+}
+.nav__list{
+    display: flex;
+    justify-content: flex-end;
+    .nav__item{
+        padding-right: 50px;
+        padding-top: 16px;
+        a{
+            font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: $colorText;
+        }
+    }
+    .nav__item:nth-child(5){
+        padding: 16px 0;
+    }
+}
+.nav__logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    .nav__logo-order{
+        span{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            padding-right: 50px;
+        }
+        a{
+            @include buyurtma;
+        }
+    }
+}

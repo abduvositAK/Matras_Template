@@ -1,0 +1,22 @@
+#hero{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: $bgColorHead;
+}
+.hero__inner{
+    display: flex;
+    justify-content: space-between;
+    h2{
+        font-weight: 800;
+font-size: 55px;
+line-height: 80px;
+color: $colorText;
+    }
+    a{
+        line-height: 72px;
+        @include buyurtma;
+    }
+    img{
+        margin-left: -36px;
+    }
+}

@@ -1,0 +1,11 @@
+.aksiya {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    h2 {
+      @include title;
+    }
+  }
+.producst__aksiya-link{
+    @include aksiyaBtn-2
+}
